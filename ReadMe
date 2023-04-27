@@ -1,0 +1,15 @@
+
+// Install JSON Server -> Step-1
+
+npm install -g json-server
+
+// Start JSON Server -> Step-2
+
+json-server --watch db.json
+
+// Now we have http://localhost:3000/ -> Step-3
+                        ->>posts
+                        ->>comments
+                        ->>profile
+                        
+For Example we have  http://localhost:3000/posts
